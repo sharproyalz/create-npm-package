@@ -1,5 +1,6 @@
 const sum = require("./lib/sum.js");
 const difference = require("./lib/difference.js");
+const product = require("./lib/product.js");
+const quotient = require("./lib/quotient.js");
 
-console.log(sum(2, 5));
-console.log(difference(2, 5));
+module.exports = { sum, difference, product, quotient };
